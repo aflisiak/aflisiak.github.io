@@ -8,8 +8,8 @@ function App() {
         <div>
             <section className="hero">
                 <div className="hero-content">
-                    <h1>Your Name</h1>
-                    <h2>Web Designer</h2>
+                    <h1>Alexander Flisiak</h1>
+                    <h2>Stuttgart Area, Germany</h2>
                     <p>Welcome to my personal website. I'm passionate about creating beautiful and functional web experiences.</p>
                     <a href="/cv" className="btn">View CV</a>
                 </div>
