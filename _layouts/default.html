@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ page.title }}</title>
-    <!-- Link to main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="{{ '/css/main.css' | relative_url }}">
-    <!-- Google Analytics - I will not share this data with Google -->
-    {% include analytics.html %}
+    <title>Your Name - Web Designer</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li><a href="{{ '/about' | relative_url }}">About</a></li>
-                <li><a href="{{ '/cv' | relative_url }}">CV</a></li>
-                <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
-            </ul>
-        </nav>
+        <!-- Header content -->
     </header>
-    <div class="container">
-        {{ content }}
-    </div><!-- /.container -->
+    
+    <div id="root"></div>
+
     <footer>
-        <ul>
-            <li><a href="mailto:aflisiak@protonmail.ch">email</a></li>
-            <li><a href="https://github.com/aflisiak">github.com/aflisiak</a></li>
-        </ul>
+        <!-- Footer content -->
     </footer>
+
+    <!-- Include React and ReactDOM scripts here -->
+    <!-- Load your React components using a separate JavaScript file -->
+    <script src="/js/main.js"></script>
 </body>
 </html>
